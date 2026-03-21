@@ -1,14 +1,25 @@
 body
 {
-    background-color: #9acef8;
-    color: black;
+    background: linear-gradient(to bottom, #9acef8, #0a1f2e);
+    color: #0a1f2e;
+    font-family: 'Arial', sans-serif;
 }
+
 h1
 {
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     margin-top: 20px;
     color: #0a1f2e;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 10px #00f2ea;
+}
+
+section
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
 }
