@@ -16,6 +16,14 @@ h1
     text-shadow: 0 0 10px #00f2ea;
 }
 
+h2
+{
+    font-size: 26px;
+    margin-top: 20px;
+    color: #0a1f2e;
+    padding-left: 10px;
+}
+
 section
 {
     background-color: rgba(255, 255, 255, 0.2);
@@ -23,3 +31,11 @@ section
     border-radius: 10px;
     margin: 20px;
 }
+
+p
+{
+    line-height: 1.7;
+    text-align: justify;
+    margin-top: 10px;
+}
+
