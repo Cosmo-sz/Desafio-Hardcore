@@ -1,10 +1,11 @@
+/*Background*/
 body
 {
     background: linear-gradient(to bottom, #9acef8, #0a1f2e);
     color: #0a1f2e;
     font-family: 'Arial', sans-serif;
 }
-
+/*Titulo principal*/
 h1
 {
     text-align: center;
@@ -15,7 +16,7 @@ h1
     font-family: 'Orbitron', sans-serif;
     text-shadow: 0 0 10px #00f2ea;
 }
-
+/*Subtítulos*/
 h2
 {
     font-size: 26px;
@@ -23,7 +24,7 @@ h2
     color: #0a1f2e;
     padding-left: 10px;
 }
-
+/*Seções*/
 section
 {
     background-color: rgba(255, 255, 255, 0.2);
@@ -31,11 +32,29 @@ section
     border-radius: 10px;
     margin: 20px;
 }
-
+/*Parágrafos*/
 p
 {
     line-height: 1.7;
     text-align: justify;
     margin-top: 10px;
 }
-
+/*Listas*/
+ul
+{
+    padding-left: 40px;
+}
+li
+{
+    line-height: 1.7;
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+}
+li::before
+{
+    content: '❅';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
