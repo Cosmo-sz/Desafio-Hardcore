@@ -58,3 +58,21 @@ li::before
     left: 0;
     top: 0;
 }
+/*Botão de compra*/
+div
+{
+    position: relative;
+}
+button
+{
+    position: absolute;
+    top: 150px;
+    left: 520px;
+    padding: 10px 20px;
+    background-color: #0a1f2e;
+    color: #9acef8;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
